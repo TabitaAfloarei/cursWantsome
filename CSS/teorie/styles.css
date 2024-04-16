@@ -1,0 +1,32 @@
+body{
+    font-size:20px;
+    color:#221203;
+}
+
+h1{
+    color:green;
+}
+
+p{
+    font-weight: bold;
+}
+
+#titlul:hover{
+    color: pink;
+}
+.colorat:hover{
+    color:olive;
+    font-weight: lighter;
+}
+
+[href="https://facebook.com"]:visited {
+    color: goldenrod;
+}
+
+[href^="http"] {
+    color: darkred;
+}
+
+[href$=".ro"] {
+    color: darkgreen;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CSS</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<!--
+  
+  Folositi ce am invatat la css pentru a stiliza elementele de mai jos.
+  Adaugati css-ul inline/ inline internal/ external;
+  Trebuie sa folositi cel putin o singura data cele 3 tipuri de selectare:
+  - id
+  - class
+  - tag(p, h1, div)
+  
+  Puteti stiliza folosint proprietatile:
+  - color
+  - background-color
+  - font-size
+  - font-weight
+  - font-style
+  
+-->
+<!-- 
+  [atribut]{
+    color: red;
+  }
+
+    [atribut="value"]{
+    color: red;
+  }
+
+  a:hover{}
+  a:first-child{}
+  a:last-child{}
+  a:last-of-type{}
+  a:first-of-type{}
+  a:not(selector)
+  
+  Faceti hover pe un element
+Selectati primul si ultimul element din lista
+selectati toate acorele care au href
+Selectati toate elementele care nu au clasa .hidden
+Selectati headerul cu atributul title="welcome"
+-->
+
+<body>
+  <header>
+    <h1 id="welcome-msg">Welcome to CSS</h1>
+    <nav class="header-nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <article>
+    <h2>This will be the start of a new design ideea</h2>
+    <p>Let's build with:</p>
+    <ol>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JS</li>
+    </ol>
+    <p>After that we will add some:</p>
+    <ol>
+      <li>Git</li>
+      <li>React</li>
+      <li>npm</li>
+    </ol>
+  </article>
+  <aticle>
+    <h2>Some ideeas</h2>
+    <ul>
+      <li>Cooking shop</li>
+      <li>Coffe shop</li>
+      <li>Restaurant</li>
+    </ul>
+  </aticle>
+  <footer>
+    <p>Legal stuff here</p>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+
+</html>
