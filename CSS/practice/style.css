@@ -4,14 +4,39 @@ html {
     color: olive;
   }
 
+  body{
+    margin: 0px;
+  }
+
   #welcome-msg {
     color: chocolate;
     font-weight: bold;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 50px;
   }
-  .header-nav{
-    background-color: blanchedalmond;
-    color: black;
-    font-style: italic;
+  .header-nav ul{
+    list-style-type: none;
+    background-color: rgb(66, 64, 64);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+  }
+
+  .header-nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+  }
+
+  .header-nav a:hover{
+    background-color: rgb(33, 32, 32);
+  }
+
+  .header-nav li{
+    float: left;
   }
 
   .footer-nav{
@@ -31,4 +56,22 @@ html {
   li:first-of-type, li:last-of-type{
     font-size:large;
     font-weight:bold;
+  }
+
+  .grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 100px 100px;
+    gap: 10px;
+  }
+  .careers{
+    grid-column: span 2;
+    background-color: antiquewhite;
+    text-align: center;
+  }
+
+  .job{
+    background-color: beige;
+    font-weight: bold;
+    color: black;
   }
