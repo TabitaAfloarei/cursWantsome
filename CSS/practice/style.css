@@ -4,5 +4,40 @@ html {
 }
 
 body{
-  color: red;
+  color: rgb(149, 17, 17);
 }
+
+#page-title{
+
+}
+
+.header-nav{
+
+}
+
+.footer-nav{
+
+}
+
+p{
+  color: rgb(12, 84, 12);
+  font-weight: bold;
+}
+
+h1, h2{
+  color: olive;
+  font-size: 30px;
+}
+
+div{
+
+}
+
+.link{
+  color:magenta;
+}
+
+a{
+  color: green;
+}
+
