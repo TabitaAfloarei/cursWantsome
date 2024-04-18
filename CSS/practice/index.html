@@ -6,18 +6,31 @@
   <meta name="viewport" content="width=device-width">
   <title>CSS</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    /* p {
+      color: blue
+    } */
+  </style>
 </head>
 
 <!--
+
+  <p class="nume">test</p> .class
+  <p id="test">test </p> #id
+  <p style="color: red">test</p> inline
+
+  p{
+   color: blue;
+  }
   
   Folositi ce am invatat la css pentru a stiliza elementele de mai jos.
   Adaugati css-ul inline/ inline internal/ external;
   Trebuie sa folositi cel putin o singura data cele 3 tipuri de selectare:
   - id
   - class
-  - tag(p, h1, div)
+  - tag (p, h1, div)
   
-  Puteti stiliza folosint proprietatile:
+  Puteti stiliza folosind proprietatile:
   - color
   - background-color
   - font-size
@@ -25,13 +38,14 @@
   - font-style
   
 -->
-<!-- 
-  [atribut]{
-    color: red;
-  }
 
-    [atribut="value"]{
-    color: red;
+<!-- 
+
+  [atribut]{
+    color:red
+  }
+  [atribut="value"]{
+    color:red
   }
 
   a:hover{}
@@ -39,40 +53,36 @@
   a:last-child{}
   a:last-of-type{}
   a:first-of-type{}
-  a:not(selector)
+  a:not(selector){}
   
-  Faceti hover pe un element
-Selectati primul si ultimul element din lista
-selectati toate acorele care au href
-Selectati toate elementele care nu au clasa .hidden
-Selectati headerul cu atributul title="welcome"
+  - Faceti un hover pe un element
+  - Selectati primul si ultimul element din lista
+  - Selectati toate ancorele care au href
+  - Selectati paragrafele elementele care nu au clasa .hidden
+  p:not(.hidden) {
+    color: red;
+  }
+  - Selectati headerul cu atributul title="welcome"
+
+  Mai exersati si alte combinatii de selectori plus alte proprietati
 -->
 
 <body>
   <header>
-    <h1 id="welcome-msg">Welcome to CSS</h1>
-    <nav class="header-nav">
+    <h1 title="welcome">Welcome to CSS</h1>
+    <nav>
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a>About</a></li>
         <li><a href="#">Contact</a></li>
-        <li><a href="#">Products</a></li>
       </ul>
     </nav>
   </header>
-
-  <div class="grid-container">
-    <div class="careers">Cariere la Digital Solutions</div>
-    <div class="job">Front end developer</div>
-    <div class="job">.NET dev</div>
-    <div class="job">Qa engineer</div>
-    <div class="job">Java dev</div>
-  </div>
   <article>
     <h2>This will be the start of a new design ideea</h2>
-    <p>Let's build with:</p>
+    <p class="hidden">Let's build with:</p>
     <ol>
-      <li draggable>HTML</li>
+      <li>HTML</li>
       <li>CSS</li>
       <li>JS</li>
     </ol>
@@ -90,12 +100,13 @@ Selectati headerul cu atributul title="welcome"
       <li>Coffe shop</li>
       <li>Restaurant</li>
     </ul>
+    <p>Un alt paragraf</p>
   </aticle>
   <footer>
-    <p>Legal stuff here</p>
-    <nav class="footer-nav">
+    <p class="hidden">Legal stuff here</p>
+    <nav>
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a>Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
