@@ -8,15 +8,15 @@ body{
 }
 
 #page-title{
-
+  color: black;
 }
 
 .header-nav{
-
+  color: black;
 }
 
 .footer-nav{
-
+  color: black;
 }
 
 p{
@@ -30,7 +30,7 @@ h1, h2{
 }
 
 div{
-
+  color: black;
 }
 
 .link{
