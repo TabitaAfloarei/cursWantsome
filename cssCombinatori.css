@@ -1,0 +1,21 @@
+
+li a[href] {
+    background-color: #b0b03b;
+  }
+  
+  section p {
+    background-color: #93a7b8;
+  }
+  
+  article>p {
+    background-color: #e891c0;
+  }
+  
+  .highlights~span {
+    background-color: cadetblue;
+  }
+  
+  ul {
+    display: inline-block;
+    vertical-align: middle;
+  }
