@@ -1,0 +1,19 @@
+label{
+    color: skyblue;
+    font-weight: bold;
+}
+
+input[type=text]{
+    border: 3px solid green;
+}
+
+input[type=email]{
+    background-color: lightblue;
+}
+
+input[type=submit], input[type=reset]{
+    background-color: green;
+}
+ body{
+    background-color: salmon;
+ }
