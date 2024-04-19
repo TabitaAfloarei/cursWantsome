@@ -1,0 +1,16 @@
+body{
+    color: darkred;
+}
+
+#buss-ideas{
+    display: inline;
+    background-color: lightsalmon;
+}
+
+.normal-content p{
+    text-align: center;
+}
+
+article h2{
+    text-align: center;
+}
