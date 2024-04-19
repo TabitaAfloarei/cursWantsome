@@ -1,0 +1,22 @@
+#logo{
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 20px;
+}
+
+.header-nav{
+    display: inline-block;
+    background-color: yellow;
+    height: 100px;
+}
+
+.nav-elem{
+    margin-right: 20px;
+}
+
+[href]{
+    font-weight: bolder;
+}
