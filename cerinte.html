@@ -1,0 +1,74 @@
+<!--
+
+  <p class="nume">test</p> .class
+  <p id="test">test </p> #id
+  <p style="color: red">test</p> inline
+
+  p{
+   color: blue;
+  }
+  
+  Folositi ce am invatat la css pentru a stiliza elementele de mai jos.
+  Adaugati css-ul inline/ inline internal/ external; -> done
+  Trebuie sa folositi cel putin o singura data cele 3 tipuri de selectare:
+  - id -> done
+  - class -> done
+  - tag (p, h1, div) -> done
+  
+  Puteti stiliza folosind proprietatile:
+  - color
+  - background-color
+  - font-size
+  - font-weight
+  - font-style
+  
+-->
+
+<!-- 
+
+  [atribut]{
+    color:red
+  }
+  [atribut="value"]{
+    color:red
+  }
+
+  a:hover{}
+  a:first-child{}
+  a:last-child{}
+  a:last-of-type{}
+  a:first-of-type{}
+  a:not(selector){}
+  
+  - Faceti un hover pe un element -> done
+  - Selectati primul si ultimul element din lista -> done
+  - Selectati toate ancorele care au href -> done, utilizat si clasa pentru asta
+  - Selectati paragrafele elementele care nu au clasa .hidden
+  p:not(.hidden) {
+    color: red;
+  } -> done
+  - Selectati headerul cu atributul title="welcome" -> done
+
+  Mai exersati si alte combinatii de selectori plus alte proprietati 
+-->
+
+<!--
+  Combinatri
+
+  .selector1.selector2 {}
+  .selector1 .selector2 {} // toti copii ai parintelui .selector1
+  .selector1 > .selector2 {} // toti descendentii directi ai lui .selector1
+  .selector1 + .selector2 {} // fratele direct al lui .selector1
+  .selector1 ~ .selector2 {} // totii frati dupa selector1
+  .selector1, .selector2 {} // atat selector1 cat si selector2 o sa fie stilizati
+  
+  - Selectati toate elementele ancorele valide care sunt descendenti ale elementului li -> done
+  - Selectati paragrafele care se afla in interiorul unui section -> done
+  - Selectati toate paragrafele care sunt copii directi al unui article -> done
+  
+  - Selectati toate span-urile care sunt precedate de un element cu clasa .hilights
+  .hilights ~ span{} -> done
+
+  
+  
+-->

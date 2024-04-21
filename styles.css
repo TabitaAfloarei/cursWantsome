@@ -1,0 +1,54 @@
+body{
+    color: darkred;
+}
+
+#buss-ideas{
+    display: inline;
+    background-color: lightsalmon;
+}
+
+.normal-content p{
+    text-align: center;
+}
+
+article h2{
+    font-family: Verdana;
+    text-align: center;
+    font-size: medium;
+}
+
+div{
+    border: 1px solid black;
+}
+
+nav a:hover {
+    color: palevioletred;
+}
+
+ol li:first-child{
+    font-weight: bold;
+    color:darkgreen;
+}
+
+ol li:last-child{
+    font-weight: bold;
+    color: darkblue;
+}
+
+.footer-nav a[href]{
+    font-weight: bold;
+    color:darkorange;
+}
+
+p:not(.hidden){
+    font-weight: bold;
+    color: lightcoral;
+}
+
+.buss-list li{
+    border: 1px solid darkkhaki;
+}
+header h1[title="welcome"]{
+    color:black;
+    font-weight: bold;
+}
