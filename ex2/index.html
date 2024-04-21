@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+</head>
+<body>
+    <p>Pizza Order</p>
+    <form action="bio.html">
+        <label for="name">Your name:</label>
+        <input type="text" name="name" minlength="3" maxlength="10" value="Michael Scott" required />
+
+        <br />
+
+        <label for="email">Your email:</label>
+        <input type="email" name="email" placeholder="example@example.com" pattern="[a-z]+@[a-z]+\.[a-z]{2,}" title="small letters without numbers. follow the example" required />
+        <br />
+
+        <label for="topping">Topping:</label>
+        <input type="radio" name="topping" value="supreme" checked />Supreme
+        <input type="radio" name="topping" value="vegetarian" checked />Vegetarian
+        <input type="radio" name="topping" value="hawaian" checked />Hawaian
+        <br />
+
+        <label for="sauce"> Sauce:</label>
+        <select name="sauce">
+            <option value="tomato">Tomato</option>
+            <option value="tzatziki">Tzatziki</option>
+            <option value="garlic">Garlic</option>
+            <option value="Mayo">Mayo</option>
+        </select>
+
+        <br />
+
+        <label for="extras">Extras</label>
+        <input type="checkbox" name="extras" value="cheese" /> Cheese
+        <input type="checkbox" name="extras" value="onions" /> Onions
+        <input type="checkbox" name="extras" value="olives" /> Olives
+
+        <br />
+
+        <label for="instructions">Delivery instructions:</label><br />
+        <textarea name="instructions" rows="10" cols="30" required></textarea>
+        <br />
+
+        <label for="quantity">Quantity</label>
+        <input type="number" name="quantity" min="1" max="7">
+        <br>
+        <br>
+
+        <label for="delivdate">Delivery time:</label>
+        <input type="date" name="delivdate" value="2024-04-10" min="2024-04-10" max="2024-06-10">
+        <br>
+        <br>
+
+        <label for="delivtime">Delivery time:</label>
+        <input type="time" name="delivtime" value="09:00" min="09:00" max="23:00">
+        <br>
+        <br>
+
+        <input type="reset" value="Reset options" />
+        <input type="submit" value="Send order" />
+    </form>
+
+</body>
+</html>
