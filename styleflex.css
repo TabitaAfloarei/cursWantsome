@@ -1,0 +1,27 @@
+.header{
+    background-color: red;
+    
+}
+.footer{
+    background-color: green;
+    padding: 0px 10px 50px 10px;
+}
+.content{
+    display: flex;
+}
+.aside1{
+    background-color: yellow;
+}
+.aside2{
+    background-color: pink;
+}
+.lorem{
+    background-color: blue;
+}
+.asideone, .asidetwo, .lorem{
+    padding: 10px;
+}
+
+*{
+    padding-top: 0px;
+}

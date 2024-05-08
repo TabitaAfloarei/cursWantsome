@@ -1,0 +1,9 @@
+div{
+    background-image: url("https://topu.ro/glygneeg/2023/05/pexels-pixabay-39504-850x560.jpg");
+    width: 850px;
+    height: 560px;
+    border: 10px dotted red;
+    padding: 20px;
+    background-clip: content-box;
+    background-repeat:no-repeat;
+}

@@ -1,0 +1,20 @@
+h1{
+    border: 2px solid red;
+}
+
+.cuprins li{
+    margin: 15px;
+    background-color: #DE1E7E;
+}
+
+.margin-article p{
+    width: 500px;
+    height: 300px;
+    border: 2px dotted black;
+    background-color: #FB1;
+}
+
+[href]{
+    border-bottom: 1px dashed blue;
+    background-color: #a1a1a1;
+}
